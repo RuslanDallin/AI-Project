@@ -3,6 +3,7 @@ This repository is a term project for COMP 452 - Artificial Intelligence
 
 Authors:
 Ruslan Dallin 40032001
+Samaninder Singh 40133493
  
 Requirements: 
 - Jupyter Notebook 
