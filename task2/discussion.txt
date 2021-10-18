@@ -1,0 +1,6 @@
+When we analyze the test statistics of the 6 different model over the course of 10 trial runs, we notice that only the 
+multi layered perceptron (base and top) have a non-zero standard deviation. This implies that for the Naive Bayes(gaussian), 
+decision tree, top decision tree and single perceptron models paramters do not change when refitting the model using the same
+training set. We can infer that the reason why the MLP behaves differently is beacause the weights assigned to the vectors in the 
+hidden layer(s) are randomly assigned everytime the model is trained. Naturally, this changes the output of the non-linear
+activation function and its corresponding test staitsitcs (F1, accuracy).
